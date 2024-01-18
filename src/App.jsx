@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import {ButtonABA} from '@abacenters/aba-storybook-fe'
 import './App.css';
 
 function App() {
@@ -17,6 +18,12 @@ function App() {
         >
           Learn React
         </a>
+        <ButtonABA
+
+  label="Button"
+  onClick={() => {}}
+  variantABA="primary"
+/>
       </header>
     </div>
   );
